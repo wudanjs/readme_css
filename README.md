@@ -3,7 +3,7 @@
 本文档提供了安装井通SDK PHP语言版本的说明。
 同时可以参考在线文档：
 
-developer.jingtum.com
+[developer.jingtum.com](developer.jingtum.com)
 
 井通SDK PHP的运行需要PHP支持 JSON（PHP 5.2.x 以上版本）和安装 CURL 扩展程序库。
 以下命令在Ubuntu 14下自动安装curl扩展程序库。
@@ -54,9 +54,9 @@ autoload.php
 
 和目录
 
-composer  
+>composer
 
-textalk
+>textalk
 
 
 ## 源程序文件说明
