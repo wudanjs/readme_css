@@ -3,7 +3,7 @@
 本文档提供了安装井通SDK PHP语言版本的说明。
 同时可以参考在线文档：
 
-[developer.jingtum.com](developer.jingtum.com)
+[developer.jingtum.com](http://developer.jingtum.com)
 
 井通SDK PHP的运行需要PHP支持 JSON（PHP 5.2.x 以上版本）和安装 CURL 扩展程序库。
 以下命令在Ubuntu 14下自动安装curl扩展程序库。
@@ -12,13 +12,13 @@ $sudo apt-get install php5-curl
 ```
 ECDSA文件需要(GNU Multiple Precision (GMP) Arithmetic Library）.
 否则会出现以下错误
-'GMP extension seems not to be installed' in /PHP-SDK/lib/ECDSA.php:11
+'GMP extension seems not to be installed' in /PHP-SDK/lib/ECDSA.php:11'
 
-在Ubuntu下，使用
+- 在Ubuntu下，使用
 ```
 $sudo apt-get install php5-gmp
 ```
-在MAC OS下，使用brew
+- 在MAC OS下，使用brew
 ```
 $brew install homebrew/php-gmp
 
@@ -50,7 +50,7 @@ php composer.phar install
 ```
 检查是否在vendor下有以下文件
 
-autoload.php  
+>autoload.php
 
 和目录
 
