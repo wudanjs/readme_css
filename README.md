@@ -69,9 +69,7 @@ php composer.phar install
 - OrderOperation.php       - Submit order operation.
 - PaymentOperation.php     - Make payment operation.
 - CancelOrderOperation.php - Cancel the order operation.
-
-- Server.php         - Basic server, API server, Tum server
-                     and Websocket server.
+- Server.php         - Basic server, API server, Tum server                     and Websocket server.
 - Tum.php            - Tum, Amount, Balance classes.
 - Wallet.php         - Wallet class and functions.
 
